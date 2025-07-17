@@ -1,0 +1,86 @@
+
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+/* dark-1 */
+.text-gray {
+    color: rgba(19, 19, 19, 1);
+}
+
+/* dark-2 */
+.text-lite-color {
+    color: rgba(66, 66, 66, 1);
+}
+
+/* dark-3 */
+.text-lite-gray {
+    color: rgba(114, 114, 114, 1);
+}
+/* button */
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1) ;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 21px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* navbar style */
+.navbar , .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    justify-content: space-between;
+}
+.brand{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.nav-link {
+    gap: 50px;
+}
+.nav-item{
+     list-style: none;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.02rem;
+}
+
+
+
+
+/* banner style */
+.banner-contain{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    }
+.banner{
+    
+    
+}
+.title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.title-description{
+    font-weight: 400;
+    font-size: 1rem;
+}
