@@ -138,6 +138,7 @@ main {
     font-weight: bold;
     font-size: 2.8rem;
     border-left: 5px solid #FF900E;
+    padding-left: 20px;
 }
 .Features-banner-description{
     font-size: 0.8rem;
@@ -162,7 +163,6 @@ main {
     border-radius: 8px;
     border: none;
     color: white;
-    /* width: 250px; */
     padding: 45px 42px;
     text-align: center;
     margin-left: -100px;
@@ -187,14 +187,16 @@ main {
 @media screen and (max-width:576px) {
     .navbar ,
      .nav-link , 
-     .features-team {
+     .features-team,
+     .Features-enjoy {
         flex-direction: column;
     }
     .nav-link{
         gap: 30px;
     }
 
-    .banner-img{
+    .banner-img ,
+    .architect-image {
         width: 100%;
     }
     .title-description{
@@ -204,6 +206,8 @@ main {
     .team{
         grid-template-columns: 1fr;
     }
-
-    
+    .experience-label{
+        margin-left: 90px;
+        margin-top: 50px;
+    }
 }
