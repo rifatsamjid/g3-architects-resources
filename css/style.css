@@ -130,7 +130,9 @@ main {
 
 /* responsive */
 @media screen and (max-width:576px) {
-    .navbar , .nav-link{
+    .navbar ,
+     .nav-link , 
+     .features-team {
         flex-direction: column;
     }
     .nav-link{
@@ -143,5 +145,10 @@ main {
     .title-description{
         padding: 10px;
     }
+
+    .team{
+        grid-template-columns: 1fr;
+    }
+
     
 }
