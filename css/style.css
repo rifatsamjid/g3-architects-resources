@@ -35,7 +35,10 @@ main {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 
 
@@ -214,6 +217,25 @@ main {
     font-weight: 600;
     font-size: 1.1rem;
     margin: 0;
+}
+
+/* Our Sponsors */
+.sponsors {
+    margin-top: 180px;
+    text-align: center;
+}
+.sponsors-title {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.sponsors-description {
+    font-size: 0.8rem;
+}
+.sponsors-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    filter: grayscale(100%);
 }
 
 
