@@ -224,7 +224,8 @@ main {
     .navbar ,
      .nav-link , 
      .features-team,
-     .Features-enjoy {
+     .Features-enjoy ,
+     .facts-container {
         flex-direction: column;
     }
     .nav-link{
@@ -243,7 +244,11 @@ main {
         grid-template-columns: 1fr;
     }
     .experience-label{
-        margin-left: 90px;
-        margin-top: 50px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    .facts-container{
+        gap: 10px;
+        align-items: center;
     }
 }
