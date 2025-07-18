@@ -1,5 +1,12 @@
 
-
+.work-sans- normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.font-family {
+    font-family: "Work sans" , sans-serif;
+}
 /* shared style */
 .display-flex{
     display: flex;
@@ -237,6 +244,21 @@ footer {
     margin-top: 50px;
     filter: grayscale(100%);
 }
+/* landing-page styles */
+
+.landing-page{
+    background-color: rgba(255, 244, 231, 1);
+    margin-top: 130px;
+    text-align: center;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 39px;
+}
+.landing-page-description {
+    font-size: 1.1rem;
+}
 
 
 
@@ -277,6 +299,5 @@ footer {
     .sponsors-image{
         gap: 60px;
         width: 100%;
-        /* padding: 20px; */
     }
 }
