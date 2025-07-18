@@ -180,6 +180,42 @@ main {
 }
 
 
+/* Some Facts */
+.facts-section {
+    margin-top: 130px;
+}
+.facts-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.facts-description {
+    font-size: 0.8rem;
+}
+.facts-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.facts-card {
+    border: 2px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    width: 140px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+   padding: 45px 35px;
+}
+.facts-number {
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin: 0;
+}
+.facts-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
 
 
 
